@@ -1,0 +1,578 @@
+@media (min-width : 577px) {
+    #mobile_top_bar {
+        display: none;
+    }
+}
+
+
+
+
+
+@media (max-width : 576px) {
+
+    .main_content {
+        padding: 0 1.5rem;
+    }
+
+
+    #top_bar,
+    #side_bar {
+        display: none;
+    }
+
+    #mobile_top_bar {
+        display: block;
+        width: 100%;
+        height: 6rem;
+        padding: 1rem 0;
+        margin-bottom: 2.5rem;
+        background: rgb(65, 115, 185);
+        background: -moz-linear-gradient(-46deg, rgba(65, 115, 185, 1) 10%, rgba(9, 9, 74, 1) 110%);
+        background: -webkit-linear-gradient(-46deg, rgba(65, 115, 185, 1) 10%, rgba(9, 9, 74, 1) 110%);
+        background: linear-gradient(-46deg, rgba(65, 115, 185, 1) 10%, rgba(9, 9, 74, 1) 110%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4173b9", endColorstr="#09094a", GradientType=1);
+
+        .inner {
+            width: 95%;
+            height: 100%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .dashboard_icon {
+                width: 3.7rem;
+                height: 3.7rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: .6rem;
+                -webkit-border-radius: .6rem;
+                -moz-border-radius: .6rem;
+                -ms-border-radius: .6rem;
+                -o-border-radius: .6rem;
+                background: rgb(27, 43, 110);
+                background: -moz-linear-gradient(135deg, rgba(27, 43, 110, 1) 0%, rgba(65, 115, 185, 1) 100%);
+                background: -webkit-linear-gradient(135deg, rgba(27, 43, 110, 1) 0%, rgba(65, 115, 185, 1) 100%);
+                background: linear-gradient(135deg, rgba(27, 43, 110, 1) 0%, rgba(65, 115, 185, 1) 100%);
+                filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1b2b6e", endColorstr="#4173b9", GradientType=1);
+
+                img {
+                    width: 1.503rem;
+                    height: 1.503rem;
+                    margin-top: 0.35rem;
+                }
+            }
+
+            .logo {
+                width: 3.1rem;
+                height: 4.2rem;
+
+                a {
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+
+            .person_image {
+                width: 3.7rem;
+                height: 3.7rem;
+                border-radius: .6rem;
+                -webkit-border-radius: .6rem;
+                -moz-border-radius: .6rem;
+                -ms-border-radius: .6rem;
+                -o-border-radius: .6rem;
+                overflow: hidden;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+
+
+
+    // dashboard start
+    #dashboard_page {
+        padding: 0;
+
+        // top section    
+        #top {
+            width: 100%;
+            min-height: 40rem;
+            padding: 3.4rem 1rem 3.4rem 1rem;
+            background-image: url('../icons/bg_shape1.png');
+            background-size: 100% 100%;
+            background-position: 0 0;
+            background-repeat: no-repeat;
+            margin-bottom: 1.8rem;
+
+            h2 {
+                font-size: 2.4rem;
+                font-family: ttc-dbold;
+                color: #000000;
+                margin-bottom: 1rem;
+            }
+
+            .wrapper {
+                width: 100%;
+                border-radius: 1.3rem;
+                -webkit-border-radius: 1.3rem;
+                -moz-border-radius: 1.3rem;
+                -ms-border-radius: 1.3rem;
+                -o-border-radius: 1.3rem;
+                padding: 0;
+                padding-bottom: .5rem;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+
+                .left {
+                    width: 100%;
+                    padding: .6rem;
+                    border-radius: 1.3rem;
+                    -webkit-border-radius: 1.3rem;
+                    -moz-border-radius: 1.3rem;
+                    -ms-border-radius: 1.3rem;
+                    -o-border-radius: 1.3rem;
+                    box-shadow: 3rem 3.3rem 46px rgba(127, 127, 255, 0.05);
+                    margin-top: 1.2rem;
+
+                    .top {
+                        width: 100%;
+                        display: flex;
+                        justify-content: space-between;
+                        margin-bottom: 1rem;
+
+                        .left {
+                            width: 45.7%;
+                            height: 7.4rem;
+                            border-radius: .8rem;
+                            -webkit-border-radius: .8rem;
+                            -moz-border-radius: .8rem;
+                            -ms-border-radius: .8rem;
+                            -o-border-radius: .8rem;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            padding-right: 2rem;
+                            border: .1rem solid rgba(112, 112, 112, .09);
+                            box-shadow: none;
+                            margin-top: 0;
+
+                            img {
+                                width: 4.25rem;
+                                height: auto;
+                            }
+
+                            h3 {
+                                font-family: ttc-dbold;
+                                font-size: 2rem;
+                                color: #000000;
+                            }
+                        }
+
+                        .right {
+                            width: 48.5%;
+                            height: 7.4rem;
+                            border-radius: .8rem;
+                            -webkit-border-radius: .8rem;
+                            -moz-border-radius: .8rem;
+                            -ms-border-radius: .8rem;
+                            -o-border-radius: .8rem;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            padding-right: 2rem;
+                            border: .1rem solid rgba(112, 112, 112, .09);
+                            background-color: #ffffff;
+                            box-shadow: none;
+
+
+                            img {
+                                width: 2.85rem;
+                                height: auto;
+                            }
+
+                            h3 {
+                                font-family: ttc-dbold;
+                                font-size: 2rem;
+                                color: #000000;
+                            }
+                        }
+                    }
+
+                    .bottom {
+                        font-size: 2rem;
+
+                        .box {
+                            width: 100%;
+                            height: 5rem;
+                            border-radius: .9rem;
+                            -webkit-border-radius: .9rem;
+                            -moz-border-radius: .9rem;
+                            -ms-border-radius: .9rem;
+                            -o-border-radius: .9rem;
+                            padding: 0 2.1rem;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            border: .1rem solid rgba(112, 112, 112, 0.15);
+                            margin-bottom: 1.1rem;
+
+                            span {
+                                font-size: 1.65rem;
+                                font-family: ttc-medium;
+                                color: #000000;
+                            }
+                        }
+                    }
+                }
+
+                .right {
+                    width: 100%;
+                    padding: 2.7rem 2.5rem 2.5rem 2.5rem;
+                    border-radius: 1.3rem;
+                    -webkit-border-radius: 1.3rem;
+                    -moz-border-radius: 1.3rem;
+                    -ms-border-radius: 1.3rem;
+                    -o-border-radius: 1.3rem;
+                    box-shadow: 3rem 3.3rem 46px rgba(127, 127, 255, 0.05);
+
+                    h2 {
+                        font-size: 2.1rem;
+                        color: #000000;
+                        margin-bottom: 2rem;
+                    }
+
+                    .box {
+                        width: 100%;
+                        height: 1.6rem;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        margin-bottom: 1.8rem;
+
+                        h3 {
+                            font-size: 1.2rem;
+                            font-family: ttc-medium;
+                            color: #000000;
+                            margin-top: 0.3rem;
+                            font-weight: normal;
+                        }
+
+                        .progress_bar {
+                            width: 75%;
+                            height: 100%;
+                            background-color: #F2F4FF;
+                            border-radius: .5rem;
+                            -webkit-border-radius: .5rem;
+                            -moz-border-radius: .5rem;
+                            -ms-border-radius: .5rem;
+                            -o-border-radius: .5rem;
+                            display: flex;
+                            align-items: center;
+                            overflow: hidden;
+
+                            .progress {
+                                border-radius: .5rem;
+                                -webkit-border-radius: .5rem;
+                                -moz-border-radius: .5rem;
+                                -ms-border-radius: .5rem;
+                                -o-border-radius: .5rem;
+                                height: 100%;
+                                margin-right: 1.2rem;
+
+                            }
+
+                            span {
+                                font-size: 1rem;
+                                font-family: ttc-medium;
+                                color: #000000;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        // top section end
+
+        // bottom section
+        #bottom {
+            width: 100%;
+            height: auto;
+            padding: 1.2rem 0 2.4rem 0 ;
+            background-image: url('../icons/bg_shape2.png');
+            background-size: 100% 100%;
+            background-position: 0 0;
+            background-repeat: no-repeat;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            .box {
+                width: 100%;
+                height: 100%;
+                padding: 1rem 1.9rem 1.45rem 1.9rem;
+                border-radius: 1.3rem;
+                -webkit-border-radius: 1.3rem;
+                -moz-border-radius: 1.3rem;
+                -ms-border-radius: 1.3rem;
+                -o-border-radius: 1.3rem;
+                box-shadow: 3rem 3.3rem 46px rgba(127, 127, 255, 0.05);
+                margin-bottom: 2rem;
+                background-color: rgb(255, 255, 255);
+
+                .heading {
+                    height: 4.1rem;
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 1.8rem;
+                    margin-top: 1.5rem;
+
+                    .badge {
+                        width: 4.1rem;
+                        height: 4.1rem;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        background-color: #A4BFFF;
+                        border-radius: 1.1rem;
+                        -webkit-border-radius: 1.1rem;
+                        -moz-border-radius: 1.1rem;
+                        -ms-border-radius: 1.1rem;
+                        -o-border-radius: 1.1rem;
+                        margin-right: 1.5rem;
+                        font-family: ttc-medium;
+                        font-size: 1.6rem;
+                        color: #000000;
+                    }
+
+                    h2 {
+                        font-family: ttc-medium;
+                        font-weight: normal;
+                        font-size: 1.6rem;
+                        color: #000000;
+                        letter-spacing: .02rem;
+                    }
+                }
+
+                .display {
+
+                    .top {
+                        width: 100%;
+                        display: flex;
+                        justify-content: space-between;
+                        margin-bottom: 1.4rem;
+
+                        .left {
+                            width: 45.7%;
+                            height: 7.4rem;
+                            border-radius: .8rem;
+                            -webkit-border-radius: .8rem;
+                            -moz-border-radius: .8rem;
+                            -ms-border-radius: .8rem;
+                            -o-border-radius: .8rem;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            padding-right: 1.8rem;
+                            padding-left: 0.88rem;
+                            border: .1rem solid rgba(112, 112, 112, .09);
+                            box-shadow: none;
+
+                            img {
+                                width: 4.25rem;
+                                height: auto;
+                            }
+
+                            h3 {
+                                font-family: ttc-dbold;
+                                font-size: 2.4rem;
+                                color: #000000;
+                            }
+                        }
+
+                        .right {
+                            width: 51.5%;
+                            height: 7.4rem;
+                            border-radius: .8rem;
+                            -webkit-border-radius: .8rem;
+                            -moz-border-radius: .8rem;
+                            -ms-border-radius: .8rem;
+                            -o-border-radius: .8rem;
+                            display: flex;
+                            justify-content: space-evenly;
+                            align-items: center;
+                            padding-right: 2rem;
+                            border: .1rem solid rgba(112, 112, 112, .09);
+                            background-color: transparent;
+                            box-shadow: none;
+
+
+                            img {
+                                width: 2.85rem;
+                                height: auto;
+                            }
+
+                            h3 {
+                                font-family: ttc-dbold;
+                                font-size: 2.4rem;
+                                color: #000000;
+                            }
+                        }
+                    }
+
+                    .bottom {
+                        font-size: 2rem;
+
+                        .box {
+                            width: 100%;
+                            height: 3.6rem;
+                            border-radius: .9rem;
+                            -webkit-border-radius: .9rem;
+                            -moz-border-radius: .9rem;
+                            -ms-border-radius: .9rem;
+                            -o-border-radius: .9rem;
+                            padding: 0 2.1rem;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            border: .1rem solid rgba(112, 112, 112, 0.15);
+                            margin-bottom: .5rem;
+                            box-shadow: none;
+
+                            span {
+                                font-size: 1.4rem;
+                                font-family: ttc-medium;
+                                color: #000000;
+                            }
+                        }
+
+                        .box:last-child {
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+
+            }
+
+            h4 {
+                margin-top: 2.2rem;
+                font-size: 1.6rem;
+                font-family: ttc-medium;
+                color: #000000;
+                margin-bottom: 0.8rem;
+            }
+
+
+            .progress_box_wrapper {
+                width: 100%;
+                height: 25.5rem;
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                top: 0;
+
+                .progress_box {
+                    width: 25rem;
+                    height: 80vw;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%) rotate(-90deg);
+                    -webkit-transform: translate(-50%, -50%) rotate(-90deg);
+                    -moz-transform: translate(-50%, -50%) rotate(-90deg);
+                    -ms-transform: translate(-50%, -50%) rotate(-90deg);
+                    -o-transform: translate(-50%, -50%) rotate(-90deg);
+                    border-radius: 0;
+                    -webkit-border-radius: 0;
+                    -moz-border-radius: 0;
+                    -ms-border-radius: 0;
+                    -o-border-radius: 0;
+                    display: flex;
+                    justify-content: center;
+                    margin: 0;
+
+                    .inner {
+                        width: 100%;
+                        height: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+
+                        .single_progress {
+                            width: 100%;
+                            height: 2.7rem;
+                            display: flex;
+                            align-items: center;
+
+                            h3 {
+                                width: 6.3rem;
+                                font-weight: normal;
+                                font-size: 1.5rem;
+                                font-family: ttc-medium;
+                                color: #000000;
+                            }
+
+                            .progress_bar {
+                                height: 100%;
+                                width: calc(100% - 6.3rem);
+                                display: flex;
+                                align-items: center;
+                                background: #F2F4FF;
+                                border-radius: .5rem;
+                                -webkit-border-radius: .5rem;
+                                -moz-border-radius: .5rem;
+                                -ms-border-radius: .5rem;
+                                -o-border-radius: .5rem;
+                                overflow: hidden;
+
+                                .progress {
+                                    height: 100%;
+                                    margin-right: 1rem;
+                                    border-radius: .5rem;
+                                    -webkit-border-radius: .5rem;
+                                    -moz-border-radius: .5rem;
+                                    -ms-border-radius: .5rem;
+                                    -o-border-radius: .5rem;
+                                }
+
+                                span {
+                                    font-size: 1.2rem;
+                                    font-family: ttc-medium;
+                                    color: #000000;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        // bottom section end
+
+
+
+
+    }
+
+
+    // dashboard end
+
+
+
+
+}
